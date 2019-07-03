@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://woaini30050.github.io</id>
     <title>JLT</title>
-    <updated>2019-07-03T07:13:58.443Z</updated>
+    <updated>2019-07-03T07:17:08.755Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://woaini30050.github.io"/>
     <link rel="self" href="https://woaini30050.github.io/atom.xml"/>
@@ -39,15 +39,7 @@
 <p>条件表达式为True执行if后面的缩进语句块</p>
 </li>
 </ul>
-<p>(```)</p>
-<h1 id="if语句块">if语句块</h1>
-<p>b = &quot;222&quot;
-a = &quot;收拾收拾&quot;
-if a is b:
-print(&quot;1111&quot;)
-print(&quot;222&quot;)
-print(&quot;333&quot;)
-(```)</p>
+<p>(<code>) b = &quot;222&quot; a = &quot;收拾收拾&quot; if a is b: print(&quot;1111&quot;) print(&quot;222&quot;) print(&quot;333&quot;) (</code>)</p>
 ]]></content>
     </entry>
 </feed>
