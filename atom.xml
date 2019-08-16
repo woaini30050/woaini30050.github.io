@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://woaini30050.github.io</id>
     <title>JLT</title>
-    <updated>2019-07-03T07:21:05.774Z</updated>
+    <updated>2019-08-16T02:24:32.523Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://woaini30050.github.io"/>
     <link rel="self" href="https://woaini30050.github.io/atom.xml"/>
@@ -11,35 +11,19 @@
     <icon>https://woaini30050.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, JLT</rights>
     <entry>
-        <title type="html"><![CDATA[程序结构]]></title>
+        <title type="html"><![CDATA[类型转换]]></title>
         <id>https://woaini30050.github.io/post/cheng-xu-jie-gou</id>
         <link href="https://woaini30050.github.io/post/cheng-xu-jie-gou">
         </link>
         <updated>2019-07-03T07:11:31.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="分支结构">分支结构</h1>
-<ul>
-<li>
-<p>分支结构基本语法</p>
-<p>if   条件表达式:
-语句1
-语句2
-语句3
-......</p>
-</li>
-<li>
-<p>条件表达式就是计算结果必须为布尔值的表达式</p>
-</li>
-<li>
-<p>表达式后面冒号不能少</p>
-</li>
-<li>
-<p>注意if后面出现的语句,如果属于if语句块,则必须同一个缩进等级</p>
-</li>
-<li>
-<p>条件表达式为True执行if后面的缩进语句块</p>
-</li>
-</ul>
-<p>(<code>) b = &quot;222&quot; a = &quot;收拾收拾&quot; if a is b: print(&quot;1111&quot;) print(&quot;222&quot;) print(&quot;333&quot;) (</code>)</p>
+        <content type="html"><![CDATA[<p>#转成数字类型
+##parseInt   转换成整数
+##parseFloat  转换成小数
+###(规律: (11abc.234)从左往右读遇到的不是数字的字符就丢掉)
+##NaN :
+##Number:里边只能是数字字符 不能有其他 否则转换的结果就是NaN
+#转成字符串类型: String
+转成布尔类型: Boolean</p>
 ]]></content>
     </entry>
 </feed>
